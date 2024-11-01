@@ -3,7 +3,7 @@
 exports[`SNAPSHOT OF APP  1`] = `
 <View>
   <Text>
-    Snapshot testing
+    First snapshot test
   </Text>
 </View>
 `;
