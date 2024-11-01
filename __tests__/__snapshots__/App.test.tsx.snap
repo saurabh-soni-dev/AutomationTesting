@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SNAPSHOT OF APP  1`] = `
+<View>
+  <Text>
+    Snapshot testing
+  </Text>
+</View>
+`;
