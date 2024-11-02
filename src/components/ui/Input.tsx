@@ -36,7 +36,7 @@ const Input: React.FC<InputProps> = ({
       : isFocused
       ? Colors.primary
       : Colors.disabled,
-    borderWidth: isFocused || error ? 2 : 1,
+    borderWidth: isFocused || error ? 1 : 1,
   };
 
   return (
@@ -55,6 +55,7 @@ const Input: React.FC<InputProps> = ({
           value={value}
           onChangeText={onChangeText}
           placeholder={placeholder}
+          placeholderTextColor={Colors.borderLight}
           onFocus={() => {
             onFocus();
             setIsFocused(true);
