@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`App Snapshot:: Snapshot testing:: App 1`] = `
-<View>
-  <Text>
-    Snapshot testing
-  </Text>
-</View>
-`;
