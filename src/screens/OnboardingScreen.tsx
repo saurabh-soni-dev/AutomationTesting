@@ -1,9 +1,9 @@
-import { FC, useRef } from 'react';
-import { Dimensions, StyleSheet, View } from 'react-native';
+import {FC, useRef} from 'react';
+import {Dimensions, StyleSheet, View} from 'react-native';
 import Swiper from 'react-native-swiper';
 import OnboardItem from '../components/global/OnboardItem';
-import { Colors } from '../utils/Colors';
-import { navigate } from '../utils/NavigationUtil';
+import {Colors} from '../utils/Colors';
+import {navigate} from '../utils/NavigationUtil';
 
 const w = Dimensions.get('window').width;
 const h = Dimensions.get('window').height;

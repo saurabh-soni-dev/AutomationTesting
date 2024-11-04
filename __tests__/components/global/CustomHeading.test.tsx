@@ -2,6 +2,7 @@ import {describe, expect, it, jest, test} from '@jest/globals';
 import {fireEvent, render} from '@testing-library/react-native';
 import CustomHeading from '../../../src/components/global/CustomHeading';
 import {goBack} from '../../../src/utils/NavigationUtil';
+import React from 'react';
 
 // Mock the goBack funtion
 jest.mock('../../../src/utils/NavigationUtil', () => ({

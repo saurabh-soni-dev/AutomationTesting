@@ -1,6 +1,7 @@
 import {describe, expect, test} from '@jest/globals';
 import {render} from '@testing-library/react-native';
 import OnboardItem from '../../../src/components/global/OnboardItem';
+import React from 'react';
 
 describe('OnboardItem.tsx', () => {
   const mockOnPressFirst = jest.fn();
@@ -30,7 +31,7 @@ describe('OnboardItem.tsx', () => {
     expect(getByTestId('background-image')).toBeTruthy();
   });
 
-  test('should be render item correctly', () => {
+  test('should', () => {
     const {getByText, getByTestId} = render(
       <OnboardItem
         imageSource={imageSource}

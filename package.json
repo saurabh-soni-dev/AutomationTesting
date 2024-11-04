@@ -12,8 +12,9 @@
     "format": "prettier --check src && prettier --write src",
     "detox:android_build":"detox build --configuration android.emu.debug",
     "detox:android_test":"detox test --configuration android.emu.debug",
-     "detox:ios_build":"detox build --configuration android.sim.debug",
-    "detox:ios_test":"detox test --configuration android.sim.debug"
+    "detox:ios_build":"detox build --configuration ios.sim.debug",
+    "detox:ios_test":"detox test --configuration ios.sim.debug",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.18",
